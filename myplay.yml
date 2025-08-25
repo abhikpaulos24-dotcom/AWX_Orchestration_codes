@@ -3,6 +3,6 @@
   hosts: localhost
   gather_facts: true
   tasks:
-    - name: this is a debug statement
+      g- name: this is a debug statement
       debug:
         msg: "Hi Abhik Paul"
