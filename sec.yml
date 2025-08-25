@@ -1,0 +1,7 @@
+---
+- name: test template
+  hosts: localhost
+  tasks:
+    - name: calculating the sum of two nums
+      debug:
+        msg: "2+2 is 4"
